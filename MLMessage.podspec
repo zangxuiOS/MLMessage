@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MLMessage"
-  s.version  = "0.1.7"
+  s.version  = "0.1.8"
   s.summary      = "MLMessage"
 
   s.description  = <<-DESC
@@ -22,10 +22,10 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/zangxuiOS/MLMessage.git", :tag => "0.1.7"  }
+  s.source       = { :git => "https://github.com/zangxuiOS/MLMessage.git", :tag => "0.1.8"  }
 
-  s.source_files  = "MLMessage/*.swift"
-  s.exclude_files = "MLMessage/Exclude"
+  s.source_files  = "Demo/MLMessage/*.swift"
+  s.exclude_files = "Demo/MLMessage/Exclude"
 
   s.requires_arc = true
   s.dependency 'AFNetworking', '~> 3.1.0'
