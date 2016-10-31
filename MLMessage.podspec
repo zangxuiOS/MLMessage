@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MLMessage"
-  s.version  = "0.1.5"
+  s.version  = "0.1.6"
   s.summary      = "MLMessage"
 
   s.description  = <<-DESC
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/zangxuiOS/MLMessage.git", :branch => "master" }
+  s.source       = { :git => "https://github.com/zangxuiOS/MLMessage.git", :tag => "0.1.6"  }
 
   s.source_files  = "MLMessage/*.swift"
   s.exclude_files = "MLMessage/Exclude"
