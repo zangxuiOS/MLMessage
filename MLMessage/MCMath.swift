@@ -18,7 +18,7 @@ public class MCMath: NSObject {
         return a - b
     }
     
-    public func appendString(str1: String, str2: String) -> Int {
+    public func appendString(str1: String, str2: String) -> String {
         return str1 + str2
     }
 }
