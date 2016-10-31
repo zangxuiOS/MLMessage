@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MLMessage"
-  s.version  = "0.1.4"
+  s.version  = "0.1.5"
   s.summary      = "MLMessage"
 
   s.description  = <<-DESC
@@ -28,5 +28,6 @@ Pod::Spec.new do |s|
   s.exclude_files = "MLMessage/Exclude"
 
   s.requires_arc = true
+  s.dependency 'AFNetworking', '~> 3.1.0'
 
 end
